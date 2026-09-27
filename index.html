@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
+
 <body>
     <!-- En-tête principal du portfolio -->
     <header>
@@ -116,6 +118,85 @@
             </li>
         </ul>
     </section>
+    <!-- Section consacrée aux compétences techniques -->
+    <section id="stack-technique" aria-labelledby="titre-stack-technique">
+        <h2 id="titre-stack-technique">Stack technique</h2>
+
+        <!-- Carte des langages de programmation -->
+        <article class="skill-card">
+            <h3 class="skill-card__title">Langages de programmation</h3>
+            <ul class="skill-card__list">
+                <li class="skill-card__item">C++</li>
+                <li class="skill-card__item">C</li>
+                <li class="skill-card__item">Python</li>
+            </ul>
+        </article>
+
+        <!-- Carte des technologies fondamentales du Web -->
+        <article class="skill-card">
+            <h3 class="skill-card__title">Fondamentaux du Web</h3>
+            <ul class="skill-card__list">
+                <li class="skill-card__item">HTML5</li>
+                <li class="skill-card__item">CSS3</li>
+                <li class="skill-card__item">JavaScript</li>
+                <li class="skill-card__item">PHP</li>
+            </ul>
+        </article>
+
+        <!-- Carte des outils de développement -->
+        <article class="skill-card">
+            <h3 class="skill-card__title">Outils de développement</h3>
+            <ul class="skill-card__list">
+                <li class="skill-card__item">Git</li>
+                <li class="skill-card__item">GitHub</li>
+                <li class="skill-card__item">Visual Studio Code</li>
+            </ul>
+        </article>
+    </section>
+    <!-- Section consacrée aux projets -->
+    <section id="projets" aria-labelledby="titre-projets">
+        <h2 id="titre-projets">Projets</h2>
+
+        <!-- Présentation du portfolio personnel -->
+        <article class="project-card">
+            <h3 class="project-card__title">Portfolio Personnel</h3>
+
+            <p class="project-card__description">
+                Portfolio personnel présentant mon parcours, mes compétences
+                et mes projets, conçu et développé pour mettre en pratique
+                mes connaissances en développement web.
+            </p>
+
+            <!-- Technologies utilisées pour ce projet -->
+            <ul class="project-card__technologies" aria-label="Technologies utilisées">
+                <li>
+                    <img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5" width="32" height="32">
+                </li>
+                <li>
+                    <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind CSS" width="32" height="32">
+                </li>
+                <li>
+                    <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" width="32" height="32">
+                </li>
+
+            </ul>
+
+            <!-- Liens vers la démonstration et le code source -->
+            <div class="project-card__actions">
+                <a class="project-card__link project-card__link--demo" href="https://hajarlazar.github.io/portfolio/"
+                    target="_blank" rel="noopener noreferrer">
+                    Voir le projet
+                </a>
+
+                <a class="project-card__link project-card__link--github" href="https://github.com/HajarLazar/portfolio"
+                    target="_blank" rel="noopener noreferrer">
+                    Voir le code sur GitHub
+                </a>
+            </div>
+        </article>
+    </section>
+
+
 </body>
 
 </html>
